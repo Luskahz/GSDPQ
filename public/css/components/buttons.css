@@ -1,8 +1,8 @@
 button {
     all: unset; /* Remove todas as configurações padrão, incluindo bordas, sombras, fontes, etc. */
     background-color: rgb(194, 194, 194);
-    width: 50vh;
-    height: 20vh;
+    width: 50%;
+    height: 20%;
     border-radius: 10px;
     text-align: center;
     color: #272727;
@@ -11,8 +11,8 @@ button {
 button:hover {
     all: unset; /* Remove todas as configurações padrão, incluindo bordas, sombras, fontes, etc. */
     background-color: rgb(132, 132, 132);
-    width: 50vh;
-    height: 20vh;
+    width: 50%;
+    height: 20%;
     border-radius: 10px;
     text-align: center;
     cursor: pointer;
