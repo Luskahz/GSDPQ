@@ -10,10 +10,20 @@ button {
     margin-bottom: 5vh;
 }
 button:hover {
-    background-color: rgb(131, 131, 131);
+    filter: brightness(80%); 
 }
 
 button:active {
     transform: scale(0.95);
-    background-color: rgb(94, 94, 94);
+    
+    filter: brightness(100%);
+}
+
+
+
+
+button.adicao{
+    font-size: 5vh;
+    width: 80vw;
+    height: 10vh;
 }
