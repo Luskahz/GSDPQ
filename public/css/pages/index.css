@@ -6,7 +6,7 @@
     background-color: rgb(55, 55, 55);
     border-radius: 8px;
     z-index: 1;
-    top: 10vw;
+    top: 5vw;
     box-shadow: 0px -1px 50px 10px rgba(255, 255, 255, 0.05);
 
 }
@@ -16,6 +16,7 @@
     align-items: center;
 }
 #title{
+    margin: 0;
     position: absolute;
     z-index: 2;
     color: #fff;
@@ -24,11 +25,13 @@
     -webkit-text-fill-color: transparent;
     font-family: "impact", sans-serif;
     font-size: 9vw;
-    top: -1hv;
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.2), 0 0 10px rgba(255, 255, 255, 0.3);
+    user-select: none;
 }
+
  @media (max-width: 600px) {
     #title{
+        margin: 0;
         position: absolute;
         z-index: 2;
         color: #fff;
@@ -37,8 +40,32 @@
         -webkit-text-fill-color: transparent;
         font-family: "impact";
         font-size: 9.1vw;
-        top: -1vh;
         text-shadow: 0 0 15px rgba(255, 255, 255, 0.2), 0 0 15px rgba(255, 255, 255, 0.3);
+        user-select: none;
     }    
     
+ }
+
+ .container div{
+    margin-top: 20vh;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ @media (max-width: 600px){
+    .container div{
+        margin-top: 10vh;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
  }

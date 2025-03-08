@@ -1,25 +1,19 @@
 button {
-    all: unset; /* Remove todas as configurações padrão, incluindo bordas, sombras, fontes, etc. */
-    background-color: rgb(194, 194, 194);
-    width: 50%;
-    height: 20%;
+    all: unset; 
+    background-color: rgb(117, 117, 117);
+    width: 80vw;
+    height: 20vh;
     border-radius: 10px;
     text-align: center;
-    color: #272727;
+    color: #b8b8b8;
+    font-size: 3vh;
+    margin-bottom: 5vh;
 }
-
 button:hover {
-    all: unset; /* Remove todas as configurações padrão, incluindo bordas, sombras, fontes, etc. */
-    background-color: rgb(132, 132, 132);
-    width: 50%;
-    height: 20%;
-    border-radius: 10px;
-    text-align: center;
-    cursor: pointer;
-    color: #272727;
+    background-color: rgb(131, 131, 131);
 }
 
 button:active {
     transform: scale(0.95);
-    background-color: rgb(132, 132, 132);
+    background-color: rgb(94, 94, 94);
 }
