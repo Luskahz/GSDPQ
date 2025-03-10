@@ -1,5 +1,13 @@
-button {
-    all: unset; 
+
+
+
+
+
+button.adicao{
+    all: unset;
+    font-size: 5vh;
+    width: 80vw;
+    height: 10vh;
     background-color: rgb(117, 117, 117);
     width: 80vw;
     height: 20vh;
@@ -9,21 +17,12 @@ button {
     font-size: 3vh;
     margin-bottom: 5vh;
 }
+
 button:hover {
     filter: brightness(80%); 
 }
 
 button:active {
     transform: scale(0.95);
-    
     filter: brightness(100%);
-}
-
-
-
-
-button.adicao{
-    font-size: 5vh;
-    width: 80vw;
-    height: 10vh;
 }

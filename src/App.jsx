@@ -12,7 +12,7 @@ export default function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/Dashboard" element={<Dashboard />} />
-      <Route path="/HistoricoGsd" element={<HistoricoGsd />} />
+      <Route path="/historicoGsd" element={<HistoricoGsd />} />
       <Route path="/Profile" element={<Profile />} />
     </Routes>
   </Router>
