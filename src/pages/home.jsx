@@ -20,9 +20,10 @@ export default function Home(){
                     </div>
                 </div>
                 <Modal isOpen={isModalOpen} onClose={()=> setIsModalOpen(false)}>
-                        <h2>Conteúdo do Modal</h2>
-                        <p>Este é um modal exemplo.</p>
-                    </Modal>
+                    <form action="POST">
+                        
+                    </form>
+                </Modal>
             </div>
     );
 }
