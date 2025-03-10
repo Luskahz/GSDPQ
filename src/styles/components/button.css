@@ -1,0 +1,29 @@
+button {
+    all: unset; 
+    background-color: rgb(117, 117, 117);
+    width: 80vw;
+    height: 20vh;
+    border-radius: 10px;
+    text-align: center;
+    color: #b8b8b8;
+    font-size: 3vh;
+    margin-bottom: 5vh;
+}
+button:hover {
+    filter: brightness(80%); 
+}
+
+button:active {
+    transform: scale(0.95);
+    
+    filter: brightness(100%);
+}
+
+
+
+
+button.adicao{
+    font-size: 5vh;
+    width: 80vw;
+    height: 10vh;
+}
