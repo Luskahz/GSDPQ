@@ -12,24 +12,27 @@
   }
   
   .modal-content {
-    background: rgb(31, 24, 24);
+    background: rgb(55, 55, 55);
     border-radius: 8px;
-    width: 50%;
-    height: 80%;
+    width: 60%;
+    height: 95%;
     position: relative;
     z-index: 5;
   }
   
   .modal-close {
     all: unset;
-    width: 10%;
-    height: 10%;
+    width: 4%;
+    height: 4%;
     font-size: 35px;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     right: 0;
     background: none;
     border: none;
     cursor: pointer;
   }
+
   
