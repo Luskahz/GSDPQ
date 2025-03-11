@@ -1,20 +1,24 @@
 import { Link } from "react-router-dom";
-import '../styles/components/header.css';
+import '../styles/components/header/headerClassic.css';
+import '../styles/components/header/headerModalClassic.css';
 import profileSvgDark from "../assets/padraoProfileDark.svg";
 
 export default function Header() {
     return (
         <header>
-            <div id="logo"></div>
+            <div id="logo">
+                <Link to="/">
+                    <img src={profileSvgDark} alt="" />
+                </Link>
+            </div>
             <div className="wrapper">
                 <div>
-
+                    
                 </div>
                 <nav>
                     <Link to="/historicogsd">GSDPQs</Link>
                     <Link to="/dashboard">Dashboard</Link>
                     <Link to="/">Home</Link>
-                    <Link to="/teste"> testemodal</Link>
                 </nav>
             </div>
             

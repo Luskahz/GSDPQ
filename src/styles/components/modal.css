@@ -14,10 +14,12 @@
   .modal-content {
     background: rgb(55, 55, 55);
     border-radius: 8px;
-    width: 60%;
-    height: 95%;
+    min-height: 50%;
+    min-width: 20%;
     position: relative;
     z-index: 5;
+    overflow: auto;
+    
   }
   
   .modal-close {

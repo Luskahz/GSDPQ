@@ -1,5 +1,6 @@
-import React, { Children } from "react";
+import React, { Children, useState } from "react";
 import "../styles/components/modal.css"
+import "../styles/index.css"
 
 
 const Modal =({ isOpen, onClose, children }) => {
@@ -8,14 +9,16 @@ const Modal =({ isOpen, onClose, children }) => {
     return (
         <div className="modal-overlay" onClick={onClose}>
             <div className="modal-content" onClick={(e)=>e.stopPropagation()}>
-                <header>
-                <button className="modal-close" onClick={onClose}>
-                    <span>
+                <header className="modal">
+                    <div>
+                    </div>
+                    <div className="modal-close">
+                    <button className="null" onClick={onClose}>
                         &#10799;
-                    </span>
-                </button>
+                    </button>
+                    </div>
+                    
                 </header>
-
                 {children}
             </div>
         </div>
