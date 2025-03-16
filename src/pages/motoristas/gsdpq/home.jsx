@@ -1,7 +1,7 @@
 import "../styles/pages/home.css"
 import "../styles/components/button.css"
 import React, { useState } from "react"
-import Modal from "../components/modal"
+import Modal from "../../../components/modal"
 import "../styles/components/modal.css"
 
 
